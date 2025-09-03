@@ -11,7 +11,7 @@ class Book:
     def __str__(self):
         return f"{self.title} by {self.author} was published in {self.year}"
 
-    def __rep__(self):
+    def __repr__(self):
         return f"Book({self.title!r}, {self.author!r}, {self.year!r})"
     
 
