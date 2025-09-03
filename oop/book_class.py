@@ -1,5 +1,5 @@
 # book_class
-class book:
+class Book:
     def __init__(self, title, author, year):
         self.title = title
         self.author = author
@@ -14,4 +14,4 @@ class book:
     def __rep__(self):
         return f"Book('{self.title}','{self.author}', {self.year})"
     
-    
+
